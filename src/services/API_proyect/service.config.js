@@ -10,12 +10,10 @@ const APIHeaders = {
 };
 
 export const API = axios.create({
-  baseURL: `http://localhost:8080/api/v1`,
-  // baseURL: `https://backend-ruteros.vercel.app/api/v1`,
-  // baseURL: `https://backend-ruteros-eta.vercel.app/api/v1`,
+  // baseURL: `http://localhost:8080/api/v1`,
+  baseURL: `https://backend-ruteros-eta.vercel.app/api/v1`,
 
   headers: APIHeaders,
   timeout: 60000,
 });
 
-//Original baseURL in line 12: baseURL: `https://backend-dev-link.vercel.app/api/v1`,
